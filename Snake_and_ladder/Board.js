@@ -1,5 +1,5 @@
-const Snake = require("./Snake");
-const Ladder = require("./Ladder");
+const Snake = require("./snake");
+const Ladder = require("./ladder");
 
 class Board{
     constructor(size)
