@@ -7,4 +7,4 @@ class Elevator {
     }
 }
 
-module.export = Elevator;
+export default Elevator;

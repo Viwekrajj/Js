@@ -1,11 +1,13 @@
-import Elevator from "./Elevator"
+// import Elevator from "./Elevator"
 
 class ElevatorControl {
     constructor(noOfElevetors)
     {
-        this.elevator= Array.from({lenght:noOfElevetors},(_,i)=> new Elevator(0,6,0,i+1))
-        this.request=[]
+        // this.elevators= Array.from({lenght:noOfElevetors},(_,i)=> new Elevator(0,6,0,i+1));
+        this.request=[];
+        // console.log("inside the ElevatorControl")
     }
+    // console.log("hello world ")
     
 }
 

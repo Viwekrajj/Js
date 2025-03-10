@@ -15,4 +15,4 @@ class Floor {
   }
 }
 
-module.export = Floor;
+export default Floor;

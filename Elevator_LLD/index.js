@@ -1,3 +1,7 @@
-import ElevatorControl from "./ElevatorControl";
 
-const controller = new ElevatorControl(4) // no of elevetor ;
+import ElevatorControl from "./ElevatorControl"
+
+
+const controller = new ElevatorControl() // no of elevetor ;
+
+console.log("hello world");
