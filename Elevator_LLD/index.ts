@@ -1,5 +1,5 @@
 
-import ElevatorControl from "./ElevatorControl"
+import ElevatorControl from "./ElevatorControl.js"
 
 
 const controller = new ElevatorControl() // no of elevetor ;
