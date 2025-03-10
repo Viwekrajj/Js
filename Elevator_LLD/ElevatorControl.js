@@ -11,4 +11,4 @@ class ElevatorControl {
     
 }
 
-module.export = ElevatorControl;
+export default ElevatorControl;
