@@ -1,13 +1,14 @@
 {
-  "name": "clear",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "scripts": {
+  "start": "ts-node index.ts",
+  "build": "tsc",
+  "test": "echo \"Error: no test specified\" && exit 1"
 }
+}
+
+
+

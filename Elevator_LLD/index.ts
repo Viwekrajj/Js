@@ -1,7 +1,12 @@
+import { ElevatorSystem } from "./elevatorSystem";
+import { Floor } from "./floor";
 
-import ElevatorControl from "./ElevatorControl.js"
+const system = new ElevatorSystem(2, 10);
+const floor3 = new Floor(3);
+const floor7 = new Floor(7);
+const floor1 = new Floor(1);
 
-
-const controller = new ElevatorControl() // no of elevetor ;
-
-console.log("hello world");
+// Request elevators from different floors
+floor3.requestElevator("UP", system);
+floor7.requestElevator("DOWN", system);
+floor1.requestElevator("UP", system);
