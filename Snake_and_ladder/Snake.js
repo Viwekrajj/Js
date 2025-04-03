@@ -1,9 +1,9 @@
-class Snake{
-    constructor()
-    {
-        this.start=start;
-        this.end=end;
+class Snake {
+    constructor(start, end) {
+      this.start = start;
+      this.end = end;
     }
-}
-
-module.export = Snake
+  }
+  
+  module.exports = Snake;
+  

@@ -1,8 +1,8 @@
-class Dice{
-    static roll(){
-        return Math.floor(Math.random()*6) + 1;
+class Dice {
+    static roll() {
+      return Math.floor(Math.random() * 6) + 1; // Random number between 1-6
     }
-    
-}
-
-module.export = Dice;
+  }
+  
+  module.exports = Dice;
+  

@@ -1,24 +1,22 @@
-class Player{
-    constructor(name,)
-    {
-        this.name=name;
-        this.position=0;
+class Player {
+    constructor(name) {
+      this.name = name;
+      this.position = 0;
     }
-    move(steps)
-    {
-      this.position+=steps;
-      if(this.position>100)
-      {
-        this.position=100
-      }
+  
+    move(steps) {
+      this.position += steps;
+      if (this.position > 100) this.position = 100; // Limit max position
     }
-    getPosition(position)
-    {
-      return this.position
+  
+    getPosition() {
+      return this.position;
     }
-    getName(name){
-        return this.name
+  
+    getName() {
+      return this.name;
     }
-}
-
-module.export=Player;
+  }
+  
+  module.exports = Player;
+  
