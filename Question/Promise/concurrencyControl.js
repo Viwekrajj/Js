@@ -79,7 +79,7 @@ const tasks = [
     });
   }
 
-  runWithConcurrency(tasks, 1)
+  runWithConcurrency(tasks, 3)
   .then(result => {
     console.log("Final result:", result);
   })
