@@ -1,4 +1,4 @@
-// Promise Timeout: Reject a promise if it takes too long. 
+// // Promise Timeout: Reject a promise if it takes too long. 
 const timeout = 2000; // 2 seconds
 
 const apiCall = new Promise((resolve) => {
@@ -31,3 +31,5 @@ function PromiseTimeout(apiCall,timeout){
 PromiseTimeout(apiCall, timeout)
   .then(console.log)
   .catch(console.error);
+
+
