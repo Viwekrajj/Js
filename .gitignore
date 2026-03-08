@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+
+# mac
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+
+# env
+.env
+
+# android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/app/.cxx/
+
+# ios
+ios/build/
+ios/Pods/
+
+# gradle
+*.iml
+.gradle
+
+# keystore / secrets
+*.keystore
+*.jks
+
+# metro
+.expo/
+.expo-shared/
+
+# IDE
+.vscode/
+.idea/
+
+# misc
+coverage/
+dist/
+build/
